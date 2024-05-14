@@ -21,10 +21,22 @@ body {
   font-size: 100%;
 }
 
+h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: var(--off_black);
+  background-color: var(--white_color);
   display: grid;
   place-content: center;
   color: var(--white_color);
@@ -41,7 +53,7 @@ body {
   width: 100%;
   display: grid;
   place-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.3rem;
 }
 
 img {
@@ -54,7 +66,7 @@ img {
 .social-links {
   width: 100%;
   display: flex;
-  gap: 1rem 2rem;
+  gap: 1.2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -68,16 +80,14 @@ img {
   background-color: var(--grey);
   border: none;
   text-align: center;
-  padding: 12px 24px;
+  padding: 12.5px;
   border-radius: 6px;
-  font-weight: 400;
-  font-size: 1.1rem;
+  font-weight: 200;
+  font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
 
-/* specific styling
-
-.img-container {
+/* .img-container {
   margin-bottom: 24px;
 }
 .img-container img {
@@ -137,7 +147,7 @@ p.light {
 .avatar p {
   font-size: 0.875rem;
   font-weight: 700;
-}
+} */
 
 .attribution {
   display: none;
@@ -149,4 +159,4 @@ p.light {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-} */
+}
