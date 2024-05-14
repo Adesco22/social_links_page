@@ -22,15 +22,22 @@ body {
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 h2 {
   font-size: 1rem;
   text-align: center;
+  color: var(--primary_color);
+}
+
+p {
+  font-size: 0.925rem;
+  text-align: center;
+  margin-top: 2.4rem;
 }
 
 .container {
@@ -44,16 +51,16 @@ h2 {
 
 .content-wrapper {
   background-color: var(--dark-grey);
-  border-radius: 20px;
-  padding: 1rem 1rem 1.8rem;
-  max-width: 375px;
+  border-radius: 12px;
+  padding: 1rem 2rem 1.8rem;
+  width: 375px;
 }
 
 .img-container {
   width: 100%;
   display: grid;
   place-content: center;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.8rem;
 }
 
 img {
@@ -70,7 +77,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 1.4rem;
 }
 .social-links button {
   color: var(--white_color);
@@ -82,80 +89,38 @@ img {
   text-align: center;
   padding: 12.5px;
   border-radius: 6px;
-  font-weight: 200;
-  font-size: 0.9rem;
-  letter-spacing: 0.5px;
-}
-
-/* .img-container {
-  margin-bottom: 24px;
-}
-.img-container img {
-  width: 100%;
-  height: 100%;
-}
-
-.content-wrapper button {
-  padding: 0.44rem 0.81rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  background-color: rgb(244, 208, 78);
-  border: none;
-  margin-bottom: 14px;
-}
-.content-wrapper button:hover {
-  cursor: pointer;
-  border: 1px solid #000;
-  background-color: rgb(150, 120, 0);
-  color: #fff;
-}
-
-.content-wrapper h1 {
-  font-size: 1.5rem;
-  margin-bottom: 19px;
-  font-weight: 800;
-}
-
-.content-wrapper h1 > a:hover {
-  color: rgb(244, 208, 78);
-}
-p.small {
-  font-size: 1rem;
-  text-align: left;
-  margin-bottom: 19px;
-  font-weight: 500;
-}
-
-p.light {
-  font-size: 1rem;
-  font-weight: 400;
-  color: hsl(0, 0%, 50%);
-  margin-bottom: 12.5px;
-}
-
-.avatar {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  max-width: 128px;
-  height: 32px;
-  gap: 0 12px;
-  margin-bottom: 5pxpx;
-}
-
-.avatar p {
-  font-size: 0.875rem;
   font-weight: 700;
-} */
-
-.attribution {
-  display: none;
+  font-size: 0.925rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
 }
+
+.social-links button:hover {
+  background-color: var(--primary_color);
+  color: var(--dark-grey);
+}
+
+.social-links button:active {
+  background-color: hsl(75, 100%, 22%);
+  color: var(--white_color);
+}
+
+@media screen and (max-width: 375px) {
+  .content-wrapper {
+    width: 300px;
+    height: auto;
+    margin: 1rem auto;
+  }
+}
+
+/* .attribution {
+  display: none;
+} */
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 2rem auto;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
