@@ -43,7 +43,7 @@ p {
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: var(--white_color);
+  background-color: var(--off_black);
   display: grid;
   place-content: center;
   color: var(--white_color);
